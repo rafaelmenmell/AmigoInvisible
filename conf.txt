@@ -1,0 +1,11 @@
+persona,restriccion1,restriccion2,amigo1,amigo2,correo
+Papa,Mama,,,,jose_luis_menendez@hotmail.com
+Mama,Papa,,,,mell-ciru@hotmail.com
+Ines,,,,,ines.menendez@hotmail.com
+PalomaM,Sandro,,,,paloma2mm@gmail.com
+Sandro,PalomaM,,,,sandro.adg@gmail.com
+Pepe,Miriam,,,,jmenendez@hotmail.com
+Miriam,Pepe,,,,mmc8@hotmail.com
+Rafa,PalomaR,,,,rafaelmenmell@gmail.com
+PalomaR,Rafa,,,,pramosfer@gmail.com
+Tia,,,,,conchamenendez@hotmail.es
