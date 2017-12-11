@@ -18,7 +18,7 @@ Enviar <- function(conf){
 }
 
 Sortear <- function(){
-conf<-read.csv("conf.txt",stringsAsFactors=FALSE)
+conf<-read.csv("conf_anonimo.txt",stringsAsFactors=FALSE)
 
 lista1<-conf$persona
 lista2<-conf$persona
