@@ -1,0 +1,11 @@
+persona,restriccion1,restriccion2,amigo1,amigo2,correo
+Father,Mather,,,,correo1@dominio.com
+Mather,Father,,,,correo2@dominio.com
+Single1,,,,,correo3@dominio.com
+Married1a,Married1b,,,,correo4@dominio.com
+Married1b,Married1a,,,,correo5@dominio.com
+Married2a,Married2b,,,,correo6@dominio.com
+Married2b,Married2a,,,,correo7@dominio.com
+Married3a,Married3b,,,,correo8@dominio.com
+Married3b,Married3a,,,,correo9@dominio.com
+Single2,,,,,correo10@dominio.com

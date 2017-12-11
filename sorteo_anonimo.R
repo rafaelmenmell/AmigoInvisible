@@ -12,7 +12,7 @@ Enviar <- function(conf){
     complementario2<-conf[conf$amigo1==amigo2,"persona"]
     text<-sprintf("Hola %s soy el amigo invisible, tus amigos son %s (lo compartes con %s) y %s (lo compartes con %s)",i,amigo1,complementario1,amigo2,complementario2)
     #print(text)
-    send.mail(from = "amigoinvisible.menendez@gmail.com",to = c(conf[conf$persona==i,"correo"]),subject = "Resultados DEFINITIVOS del Sorteo con información complementaria",body = text,smtp = list(host.name = "smtp.gmail.com", port = 465, user.name = "amigoinvisible.menendez@gmail.com", passwd ="mnndz.2014", ssl = TRUE),authenticate = TRUE,send = TRUE)
+    send.mail(from = "direccion_envio@dominio.com",to = c(conf[conf$persona==i,"correo"]),subject = "Resultados DEFINITIVOS del Sorteo con información complementaria",body = text,smtp = list(host.name = "smtp.gmail.com", port = 465, user.name = "direccion_envio@dominio.com", passwd ="password", ssl = TRUE),authenticate = TRUE,send = TRUE)
     #sendmail(conf[conf$persona==i,"correo"], subject="****PRUEBA***** Resultados del Sorteo",message=text, password="rmail")
   }
 }
